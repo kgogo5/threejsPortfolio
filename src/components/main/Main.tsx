@@ -153,7 +153,7 @@ const _ = () => {
               >
                 magicBox
               </Button>
-              {/* <Button
+              <Button
                 variant="contained"
                 color="primary"
                 onClick={() => {
@@ -172,7 +172,7 @@ const _ = () => {
                 }}
               >
                 Forest
-              </Button> */}
+              </Button>
               <Button
                 variant="contained"
                 color="primary"
