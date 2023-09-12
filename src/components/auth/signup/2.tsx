@@ -74,7 +74,6 @@ const Buttons = styled(Button)`
 `;
 
 const LoginButtonArea = styled(Box)`
-  margin-top: 20px;
   & .MuiButton-label {
     font-size: 18px;
     font-weight: bold;

@@ -44,14 +44,6 @@ const FormWrap = styled.form`
 `;
 
 const FormArea = styled(Box)`
-  & > div {
-    margin-bottom: 20px;
-    width: 100%;
-
-    & > div {
-      width: 100%;
-    }
-  }
   & * {
     color: ${COLOR.text} !important;
     border-color: ${COLOR.text} !important;
@@ -75,15 +67,9 @@ const LoginButtonArea = styled(Box)`
 `;
 
 const BottomFunctionArea = styled(Box)`
-  margin-top: 10px;
   & * {
     color: ${COLOR.text} !important;
     border-color: ${COLOR.text} !important;
-  }
-
-  & label {
-    margin-left: 0;
-    margin-right: 0;
   }
 `;
 
@@ -189,7 +175,6 @@ const _ = ({ isMobile }: ContainerInterface) => {
                   onChange={checkedClick}
                   name="checkedA"
                   color="primary"
-                  id="loginCheck"
                 />
               }
               label="로그인 상태 유지"
