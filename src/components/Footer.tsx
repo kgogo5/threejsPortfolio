@@ -139,7 +139,7 @@ const _ = ({ isMobile }: Iplatform) => {
               <Typography>
                 Copyright
                 <br /> © <br />
-                2021 Bunda team. <br />
+                2023 Steve Kim. <br />
                 모든 권리 보유.
               </Typography>
             </Inner>
