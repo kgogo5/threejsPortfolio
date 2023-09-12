@@ -85,9 +85,6 @@ const BottomFunctionArea = styled(Box)`
     margin-left: 0;
     margin-right: 0;
   }
-  & #loginCheck {
-    padding: 9px;
-  }
 `;
 
 const ErrorMessage = styled(Typography)`
