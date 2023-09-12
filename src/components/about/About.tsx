@@ -3,8 +3,8 @@ import { Box, Container, Typography } from "@material-ui/core";
 import { Canvas } from "@react-three/fiber";
 
 import Steve from "./aboutAnimation/Steve";
-import Carlo from "./aboutAnimation/Carlo";
-import HanBH from "./aboutAnimation/HanBH";
+// import Carlo from "./aboutAnimation/Carlo";
+// import HanBH from "./aboutAnimation/HanBH";
 
 const Wrap = styled(Container)`
   && {
